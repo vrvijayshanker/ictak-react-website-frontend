@@ -1,1 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-link {
+    font-family: 'Poppins', sans-serif;
+}
 
+.header-admin {
+    width: 100%;
+    height: 100px;
+    background-color: #A4E5E0;
+    color: #000000;
+    position: top; 
+}
+
+.header-admin .ictlogo {
+    width: 250px;
+}
+
+.dash-body{
+    height: calc(100vh - 100px);
+}
+
+.sidepane {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    background-color: #DAF5FF;
+    
+}
+
+.sidepane h5 {
+    font-size: medium;
+}
+
+.sidepane ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.sidepane .side-button {
+    width: 200px;
+    border-radius: 4rem;
+}
+
+.sidepane .side-navitem li {
+    background-color: #A4E5E0;
+    color: #000000;
+    padding: 8px;
+    border-radius: 3rem;
+}
+
+.sidepane .side-navitem {
+    text-decoration: none;
+    margin: auto;
+}
+
+.side-pane button:hover{
+    background-color: #40514d;
+    color: #ffffff;
+    cursor: pointer;
+}
