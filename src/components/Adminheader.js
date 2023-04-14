@@ -6,13 +6,13 @@ const Adminheader = () => {
   return (
     <div className='container-fluid sticky-top header-admin pt-4 font-link'>
       <div className='justify-content-between'>
-      <div className='row'>
+      <div className='row w-100'>
         <div className='col-4'>
           <img src={ictlogo} alt='ict logo and title' className='ictlogo' />
         </div>
 
         <div className='col-4'>
-            <h3>Admin Dashboard</h3>
+            <h3>Administrator</h3>
         </div>     
 
       </div>

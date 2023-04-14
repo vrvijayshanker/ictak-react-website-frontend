@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #e0f5f6;
+}
+
 .font-link {
     font-family: 'Poppins', sans-serif;
 }
@@ -10,6 +15,7 @@
     width: 100%;
     height: 100px;
     background-color: #A4E5E0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #000000;
     position: top; 
 }
@@ -18,16 +24,28 @@
     width: 250px;
 }
 
-.dash-body{
-    height: calc(100vh - 100px);
+.login-container {
+    margin: 5rem;
+    padding: 5rem;
 }
+
+.login-box{
+    width: 30%;
+    height: 50%;
+    background-color: #E5FDD1;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    padding: 2rem;
+}
+
 
 .sidepane {
     display: flex;
     flex-direction: row;
-    flex-flow: row;
-    background-color: #DAF5FF;
-    
+    flex-flow: row;      
+    background-color: #A4E5E0;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .sidepane h5 {
@@ -37,16 +55,17 @@
 .sidepane ul {
     list-style: none;
     margin-top: 5px;
+    height: calc(100vh - 100px);  
 }
 
 .sidepane .side-button {
     width: 200px;
-    border-radius: 4rem;
+    border-radius: 4rem;    
+    color: #000000;
 }
 
 .sidepane .side-navitem li {
     background-color: #A4E5E0;
-    color: #000000;
     padding: 8px;
     border-radius: 3rem;
 }
@@ -56,8 +75,6 @@
     margin: auto;
 }
 
-.side-pane button:hover{
-    background-color: #40514d;
-    color: #ffffff;
+.side-pane .side-button:hover{
     cursor: pointer;
 }

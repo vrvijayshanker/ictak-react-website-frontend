@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Admincourse = () => {
-  // DUMMY DataTransfer
+  // DUMMY Data
   const courseList = [
     {
       title: "MEAN Stack",
@@ -48,7 +49,9 @@ const Admincourse = () => {
         <div className='row'>
         <div className='col-2'>
             <span className=' d-flex justify-content-end'>
-              <button className='btn btn-success w-100'>Add New Course</button>
+              <Link to={'/admindashboard/addcourse'}>
+                <button className='btn btn-success w-100'>Add New Course</button>
+              </Link>
             </span>
           </div>
 
@@ -63,7 +66,7 @@ const Admincourse = () => {
         <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">Course Title</th>
+          <th scope="col">Title</th>
           <th scope="col">Thumbnail</th>
           <th scope="col">Overview</th>
           <th scope="col">Duration</th>
