@@ -1,1 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: #f4f4f6;
+}
+
+.font-link {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-admin {
+    width: 100%;
+    height: 100px;
+    background-color: #f4f4f6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #2a3843;
+    position: top; 
+    z-index: 1;
+}
+
+.header-admin .ictlogo {
+    width: 250px;
+}
+
+.login-container {
+    margin: 5rem;
+    padding: 5rem;
+}
+
+.login-box{
+    width: 30%;
+    height: 50%;
+    background-color: #E5FDD1;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    padding: 2rem;
+}
+
+.dash-body {
+    height: calc(100%-100px);
+}
+
+
+.sidepane {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;      
+    background-color: #2a3843;
+    z-index: 0;
+    position: relative;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.sidepane h5 {
+    font-size: medium;
+}
+
+.sidepane ul {
+    list-style: none;
+    margin-top: 5px;
+    height: calc(100vh - 100px);  
+}
+
+.sidepane .side-button {
+    width: 200px;
+    border-radius: 4rem;   
+    color: #f4f4f6;
+}
+
+.sidepane .side-navitem li {
+    background-color: #A4E5E0;
+    padding: 8px;
+    border-radius: 3rem;
+}
+
+.sidepane .side-navitem {
+    text-decoration: none;
+    margin: auto;
+}
+
+.side-pane .side-button:hover{
+    cursor: pointer;
+}
