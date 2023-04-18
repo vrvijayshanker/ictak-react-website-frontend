@@ -1,8 +1,8 @@
 import React from 'react'
-import Adminheader from './Adminheader'
 import { Link } from 'react-router-dom'
+import Adminheader from '../components/Adminheader';
 
-const AddCourse = () => {
+const AddTestimonial = () => {
   return (
     <div>
         <Adminheader />
@@ -21,7 +21,7 @@ const AddCourse = () => {
                 </div>
 
                 <div className='col-11'>
-                    <h3>Add Course Details</h3>
+                    <h3>Add Testimonials</h3>
                 </div>
             </div>
             <hr/>
@@ -29,51 +29,26 @@ const AddCourse = () => {
                 <div className='form-box w-50'>
                 <form>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="coursetitle" placeholder='Course Title' />
-                </div>
-
-                <div class="mb-3 row">
-                    <div className='col'>
-                        <label for="thumbImage" class="form-label">Upload Thumbnail</label>
-                        <input class="form-control" type="file" id="thumbImage" placeholder='Upload Thumbnail' />
-                    </div>
-
-                    <div className='col'>
-                        <label for="syllabusfile" class="form-label">Upload Syllabus</label>
-                        <input class="form-control" type="file" id="syllabusfile" placeholder='Upload Syllabus' />
-                    </div>
+                    <input type="text" class="form-control" id="testimonial" placeholder='Testimonial' />
                 </div>
 
                 <div class="mb-3">
-                    <textarea class="form-control" id="overview" placeholder='Course Overview' ></textarea>
+                    <input type="text" class="form-control" id="student_name" placeholder='Name of Student' />
                 </div>
 
                 <div class="mb-3">
-                    <textarea class="form-control" id="description" placeholder='Course Description' ></textarea>
+                    <label for="student_photo" class="form-label">Upload Photo</label>
+                    <input class="form-control" type="file" id="student_photo" placeholder='Upload Photo' />
                 </div>
 
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="duration" placeholder='Duration (In weeks)' />
+                    <input type="text" class="form-control" id="course" placeholder='Course' />
                 </div>
 
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="fee" placeholder='Fee' />
+                    <input type="text" class="form-control" id="batch" placeholder='Batch' />
                 </div>
 
-                <div className='row mb-3'>
-                <div class="col">
-                    <label for="startdate" class="form-label">Registration Start
-                    <input type="date" class="form-control" id="startdate" /></label>
-                </div>
-
-                <div class="col">
-                    <label for="enddate" class="form-label">Registration End
-                    <input type="date" class="form-control" id="enddate" /></label>
-                </div>
-                </div>
-                <div class="mb-3">
-                                       
-                </div>
                 <div class="mb-3">
                     <button className='btn btn-success w-25'>Save</button>
                 </div>
@@ -86,4 +61,4 @@ const AddCourse = () => {
   )
 }
 
-export default AddCourse
+export default AddTestimonial

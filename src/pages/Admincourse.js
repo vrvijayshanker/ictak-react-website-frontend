@@ -39,6 +39,87 @@ const Admincourse = () => {
       fee: "$800",
       start: "2023-08-01",
       end: "2023-09-09"
+    },
+    {
+      title: "MERN Stack",
+      thumbnail: "https://example.com/mern-stack.jpg",
+      overview: "A full-stack development course using MongoDB, Express, React, and Node.js",
+      duration: "10 weeks",
+      fee: "$1,200",
+      start: "2023-06-01",
+      end: "2023-08-09"
+    },
+    {
+      title: "Data Science",
+      thumbnail: "https://example.com/data-science.jpg",
+      overview: "A course on data science and analytics, covering machine learning, statistics, and data visualization",
+      duration: "8 weeks",
+      fee: "$1,000",
+      start: "2023-07-01",
+      end: "2023-08-25"
+    },
+    {
+      title: "Ethical Hacking",
+      thumbnail: "https://example.com/ethical-hacking.jpg",
+      overview: "A course on cybersecurity, covering penetration testing, vulnerability assessment, and security auditing",
+      duration: "6 weeks",
+      fee: "$800",
+      start: "2023-08-01",
+      end: "2023-09-09"
+    },
+    {
+      title: "MERN Stack",
+      thumbnail: "https://example.com/mern-stack.jpg",
+      overview: "A full-stack development course using MongoDB, Express, React, and Node.js",
+      duration: "10 weeks",
+      fee: "$1,200",
+      start: "2023-06-01",
+      end: "2023-08-09"
+    },
+    {
+      title: "Data Science",
+      thumbnail: "https://example.com/data-science.jpg",
+      overview: "A course on data science and analytics, covering machine learning, statistics, and data visualization",
+      duration: "8 weeks",
+      fee: "$1,000",
+      start: "2023-07-01",
+      end: "2023-08-25"
+    },
+    {
+      title: "Ethical Hacking",
+      thumbnail: "https://example.com/ethical-hacking.jpg",
+      overview: "A course on cybersecurity, covering penetration testing, vulnerability assessment, and security auditing",
+      duration: "6 weeks",
+      fee: "$800",
+      start: "2023-08-01",
+      end: "2023-09-09"
+    },
+    {
+      title: "MERN Stack",
+      thumbnail: "https://example.com/mern-stack.jpg",
+      overview: "A full-stack development course using MongoDB, Express, React, and Node.js",
+      duration: "10 weeks",
+      fee: "$1,200",
+      start: "2023-06-01",
+      end: "2023-08-09"
+    },
+    {
+      title: "Data Science",
+      thumbnail: "https://example.com/data-science.jpg",
+      overview: "A course on data science and analytics, covering machine learning, statistics, and data visualization",
+      duration: "8 weeks",
+      fee: "$1,000",
+      start: "2023-07-01",
+      end: "2023-08-25"
+    },
+    {
+      title: "Ethical Hacking",
+      thumbnail: "https://example.com/ethical-hacking.jpg",
+      overview: "A course on cybersecurity, covering penetration testing, vulnerability assessment, and security auditing",
+      duration: "6 weeks",
+      fee: "$800",
+      start: "2023-08-01",
+      end: "2023-09-09"
     }
   ];
 

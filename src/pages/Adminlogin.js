@@ -1,6 +1,6 @@
 import React from 'react'
 import Adminheader from '../components/Adminheader'
-import '../assets/css/style.css'
+import '../Assets/css/style.css'
 const Adminlogin = () => {
   return (
     <div>

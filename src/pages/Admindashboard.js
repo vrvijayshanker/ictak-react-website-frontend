@@ -1,8 +1,9 @@
 import React from 'react';
-import '../assets/css/style.css';
+import '../Assets/css/style.css';
 import Adminheader from '../components/Adminheader';
 import Admincourse from './Admincourse';
 import Adminstaff from './Adminstaff';
+import AdminTestimonial from './AdminTestimonial';
 
 const Admindashboard = () => {
   return (  
@@ -11,7 +12,8 @@ const Admindashboard = () => {
 
       {/* Sidepane starts here */}
       <div className='dash-body d-flex justify-content-between font-link'>
-        <div className='sidepane col-lg-2 vh-100'>
+        
+        <div className='sidepane col-lg-2 sticky-lg-top'>
           <ul className="nav nav-tabs" id="myTab" role="tablist">
 
             {/* Course Details */}
@@ -56,19 +58,6 @@ const Admindashboard = () => {
               </span>
             </li>
 
-            {/* Events */}
-            <li className="side-navitem nav-item" role="presentation">
-              <span className='d-flex justify-content-evenly pt-2'>
-              <button className="side-button nav-link" id="events-tab" data-bs-toggle="tab" data-bs-target="#events-tab-pane" type="button" role="tab" aria-controls="events-tab-pane" aria-selected="true">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-event-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM11.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
-              </svg>
-                <h5>Events</h5>                  
-              </button>
-              </span>
-            </li>
-
             {/* Subscribers */}
             <li className="side-navitem nav-item" role="presentation">
               <span className='d-flex justify-content-evenly pt-2'>
@@ -98,6 +87,7 @@ const Admindashboard = () => {
         
         </div>
 
+        {/* Tab Content Starts Here */}
         <div className='col-lg-10 col-md-12 tab-content' id='mytabcontent'> 
           
           <div class="tab-pane fade show active" id="course-tab-pane" role="tabpanel" aria-labelledby="course-tab" tabindex="0">            
@@ -109,11 +99,7 @@ const Admindashboard = () => {
           </div>
           
           <div class="tab-pane fade" id="testimonial-tab-pane" role="tabpanel" aria-labelledby="testimonial-tab" tabindex="0">
-            Testimonials
-          </div>
-
-          <div class="tab-pane fade" id="events-tab-pane" role="tabpanel" aria-labelledby="events-tab" tabindex="0">
-            Events
+            <AdminTestimonial />
           </div>
 
           <div class="tab-pane fade" id="subscriber-tab-pane" role="tabpanel" aria-labelledby="subscriber-tab" tabindex="0">

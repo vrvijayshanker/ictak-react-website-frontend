@@ -1,6 +1,6 @@
 import React from 'react'
-import ictlogo from '../assets/images/LOGO_ICTAK-Name.svg';
-import '../assets/css/style.css'
+import ictlogo from '../Assets/images/LOGO_ICTAK-Name.svg';
+import '../Assets/css/style.css'
 
 const Adminheader = () => {
   return (
